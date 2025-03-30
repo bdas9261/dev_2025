@@ -46,6 +46,7 @@ public class LoginSteps {
 	@Then("User navigated to home page")
 	public void user_navigated_to_home_page() {
        driver.close();
+       System.out.println("closing driver instances");
 	}
 
 
