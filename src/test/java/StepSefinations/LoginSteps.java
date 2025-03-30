@@ -31,6 +31,7 @@ public class LoginSteps {
     	   driver.findElement(By.name("email")).sendKeys("user@gmail.com");
            driver.findElement(By.name("password1")).sendKeys("pEy!mFc123");
            driver.findElement(By.xpath("//button[@type='submit']")).click();
+           System.out.println("when clause");
           
        }
      
